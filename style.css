@@ -1,0 +1,26 @@
+body {
+  background-color: #fffbf7;
+}
+
+h1 {
+  color: #025157;
+}
+
+h4 {
+  color: #46484c;
+}
+
+.texto-promocional {
+  color: #8b8b8bcc;
+}
+
+.texto-boton {
+  color: #fff;
+  background-color: #025157;
+  border-radius: 5px;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
+}
