@@ -1,14 +1,21 @@
 body {
   background-color: #fffbf7;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
-  margin: 40px 20px 0;
-  font-size: 0;
-  height: 100%;
-  line-height: 45px;
+  height: 60px;
+  margin: 0 20px;
+  padding-bottom: 15px;
   font-family: sans-serif;
+  font-size: 0;
+  line-height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
 
 .header .menu-item {
@@ -129,3 +136,41 @@ body {
   width: 70%;
 }
 
+.publish {
+  padding-left: 10px;
+}
+
+.publish h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+  font-weight: 900;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+
+}
+
+.promo .explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.promo .explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
