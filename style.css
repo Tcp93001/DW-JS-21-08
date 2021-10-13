@@ -174,3 +174,56 @@ body {
   width: 120px;
   margin-top: 10px;
 }
+
+.features {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  height: 800px;
+  background-color: #025157;
+  padding: 5% 10%;
+}
+
+.features .feature-card {
+  background-color: #ffffff;
+  margin: 0 15px 30px;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.feature-content {
+  flex: 1;
+}
+
+.feature-content figure {
+  margin-left: 0;
+}
+
+.features .feature-card .feature-content img {
+  width: 50px;
+}
+
+.feature-image {
+  flex: 1;
+  width: 40%;
+  height: 80%;
+  position: relative;
+  right: -50px;
+  transition: right 0.5s;
+}
+
+.feature-image:hover {
+  right: 0;
+}
+
+.feature-image figure {
+  height: 100%;
+  margin-top: 0;
+}
+
+.feature-image figure img {
+  height: 100%;
+  margin-top: 0;
+}
