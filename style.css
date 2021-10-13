@@ -4,6 +4,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Encabezado */
+
 .header {
   height: 60px;
   margin: 0 20px;
@@ -69,6 +71,8 @@ body {
   border: 0;
   border-radius: 5px;
 }
+
+/* MAIN */
 
 .main {
   margin-top: 140px;
