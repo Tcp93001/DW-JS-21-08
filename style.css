@@ -227,3 +227,65 @@ body {
   height: 100%;
   margin-top: 0;
 }
+
+
+/* Empiezan los media queries */
+
+@media (max-width: 425px) {
+  .actions,
+  .navbar {
+    display: none;
+  }
+
+  .header {
+    padding: 15px 15px 0;
+    z-index: 1;
+    margin: 0;
+  }
+
+  .main {
+    margin-top: 130px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .main .banner > img {
+    width: 100%;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+    width: unset;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish h3 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    height: unset;
+  }
+
+  .feature-image {
+    display: none;
+  }
+}
