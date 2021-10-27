@@ -131,6 +131,10 @@ body {
   border-bottom-left-radius: 0;
 }
 
+.texto-boton:hover {
+  background-color: #67b54b;
+}
+
 .input-main {
   font-size: 1rem;
   height: calc(100% - 1px);
